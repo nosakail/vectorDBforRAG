@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Résultats de la Recherche</title>
+</head>
+<body>
+    <h1>Résultat de la Recherche :</h1>
+    <p><strong>Réponse Complète :</strong> {{ response }}</p>
+    <p><strong>Première Phrase :</strong> {{ first_sentence }}</p>
+    <a href="{% url 'query_llm' %}">Faire une nouvelle recherche</a>
+</body>
+</html>
